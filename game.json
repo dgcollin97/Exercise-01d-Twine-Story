@@ -1,164 +1,377 @@
 {
-    "passages": [
-      {
-        "text": "You are standing at the end of a road before a small brick building. Around you is a forest.  A small stream flows out of the building and down a gully.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Road",
-        "pid": "1",
-        "position": {
-          "x": "412",
-          "y": "189"
+  "passages": [
+    {
+      "text": "You are a scout and just have been tasked with seeking out the surrounding area. There is not supposed to be any enemy forces nearby, but the commander just wanted to be sure. There are seven places total that warrant attention; the mountianside, the misty forest, the abandoned town, the military base, unusual hills, the ocean side, and the swamps.\n\n[[Go to Mountians->Mountainside]]\n[[Go to Hills->Unusual Hills]]\n[[Go to Forest->Misty Forest]]\n[[Go to Town->Abandoned Town]]\n[[Stay Put->Military Base]]\n[[Go to Swamps->Annoyance]]\n[[Go to Cliffside->Ocean View]]",
+      "links": [
+        {
+          "name": "Go to Mountians",
+          "link": "Mountainside",
+          "pid": "2"
+        },
+        {
+          "name": "Go to Hills",
+          "link": "Unusual Hills",
+          "pid": "3"
+        },
+        {
+          "name": "Go to Forest",
+          "link": "Misty Forest",
+          "pid": "4"
+        },
+        {
+          "name": "Go to Town",
+          "link": "Abandoned Town",
+          "pid": "5"
+        },
+        {
+          "name": "Stay Put",
+          "link": "Military Base",
+          "pid": "6"
+        },
+        {
+          "name": "Go to Swamps",
+          "link": "Annoyance",
+          "pid": "7"
+        },
+        {
+          "name": "Go to Cliffside",
+          "link": "Ocean View",
+          "pid": "8"
         }
-      },
-      {
-        "text": "You are in open forest, with a deep valley to one side.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Road]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Forest",
-        "pid": "2",
-        "position": {
-          "x": "187",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are inside a building, a well house for a large spring.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Road]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Road",
-            "pid": "1"
-          }
-        ],
-        "name": "Building",
-        "pid": "3",
-        "position": {
-          "x": "337",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are in a valley in the forest beside a stream tumbling along a rocky bed.\n\n[[Go North->Road]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Valley",
-        "pid": "4",
-        "position": {
-          "x": "487",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You have walked up a hill, still in the forest.  The road slopes back\ndown the other side of the hill.  There is a building in the distance.\n\n[[Go North->Forest]]\n[[Go East->Road]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Hill",
-        "pid": "5",
-        "position": {
-          "x": "637",
-          "y": "339"
-        }
+      ],
+      "name": "Routine",
+      "pid": "1",
+      "position": {
+        "x": "405",
+        "y": "172"
       }
-    ],
-    "name": "Adventure",
-    "startnode": "1",
-    "creator": "Twine",
-    "creator-version": "2.3.7",
-    "ifid": "1A8FFB75-8072-4382-BCAF-ADFA65B09385"
-  }
+    },
+    {
+      "text": "You reach the mountianside and find a nomadic group of beast peaple. You have met their kind before and greet them in their language. They welcome you in open arms and inform you of everything that's been happening in the mountians, which saves you much trouble. After being treated to a meal and lots of songs, you bid farewell. You ponder your next move as well as what song was your favorite.\n\n[[Stay Put->Mountainside]]\n[[Go to Hills->Unusual Hills]]\n[[Go to Forest->Misty Forest]]\n[[Go to Town->Abandoned Town]]\n[[Go to Base->Military Base]]\n[[Go to Swamps->Annoyance]]\n[[Go to Cliffside->Ocean View]]",
+      "links": [
+        {
+          "name": "Stay Put",
+          "link": "Mountainside",
+          "pid": "2"
+        },
+        {
+          "name": "Go to Hills",
+          "link": "Unusual Hills",
+          "pid": "3"
+        },
+        {
+          "name": "Go to Forest",
+          "link": "Misty Forest",
+          "pid": "4"
+        },
+        {
+          "name": "Go to Town",
+          "link": "Abandoned Town",
+          "pid": "5"
+        },
+        {
+          "name": "Go to Base",
+          "link": "Military Base",
+          "pid": "6"
+        },
+        {
+          "name": "Go to Swamps",
+          "link": "Annoyance",
+          "pid": "7"
+        },
+        {
+          "name": "Go to Cliffside",
+          "link": "Ocean View",
+          "pid": "8"
+        }
+      ],
+      "name": "Mountainside",
+      "pid": "2",
+      "position": {
+        "x": "0",
+        "y": "271"
+      }
+    },
+    {
+      "text": "You approach the hills that seem unusual at closer appearance. You discover that these are anthills long since abandoned. Normally these insects are territorial and would've attacked by now. You check the passages for any recent activity only to find nothing except foul smelling insect husks, yeah they moved out. What's next?\n\n[[Go to Mountians->Mountainside]]\n[[Stay Put->Unusual Hills]]\n[[Go to Forest->Misty Forest]]\n[[Go to Town->Abandoned Town]]\n[[Go to Base->Military Base]]\n[[Go to Swamps->Annoyance]]\n[[Go to Cliffside->Ocean View]]",
+      "links": [
+        {
+          "name": "Go to Mountians",
+          "link": "Mountainside",
+          "pid": "2"
+        },
+        {
+          "name": "Stay Put",
+          "link": "Unusual Hills",
+          "pid": "3"
+        },
+        {
+          "name": "Go to Forest",
+          "link": "Misty Forest",
+          "pid": "4"
+        },
+        {
+          "name": "Go to Town",
+          "link": "Abandoned Town",
+          "pid": "5"
+        },
+        {
+          "name": "Go to Base",
+          "link": "Military Base",
+          "pid": "6"
+        },
+        {
+          "name": "Go to Swamps",
+          "link": "Annoyance",
+          "pid": "7"
+        },
+        {
+          "name": "Go to Cliffside",
+          "link": "Ocean View",
+          "pid": "8"
+        }
+      ],
+      "name": "Unusual Hills",
+      "pid": "3",
+      "position": {
+        "x": "184",
+        "y": "471"
+      }
+    },
+    {
+      "text": "You stand outside a forest and it seems to be heavily blanketed by a fog. You shrugged off any concerns and press on deeper. Two minutes go by and you finally emerge out the fog, at the same place. Did you mistakenly circled around or is there some magic at play. If it was magic, then it would most likely be nature spirits. After making sure you are intact from your trip, you ponder your next move.\n\n[[Go to Mountians->Mountainside]]\n[[Go to Hills->Unusual Hills]]\n[[Stay Put->Misty Forest]]\n[[Go to Town->Abandoned Town]]\n[[Go to Base->Military Base]]\n[[Go to Swamps->Annoyance]]\n[[Go to Cliffside->Ocean View]]",
+      "links": [
+        {
+          "name": "Go to Mountians",
+          "link": "Mountainside",
+          "pid": "2"
+        },
+        {
+          "name": "Go to Hills",
+          "link": "Unusual Hills",
+          "pid": "3"
+        },
+        {
+          "name": "Stay Put",
+          "link": "Misty Forest",
+          "pid": "4"
+        },
+        {
+          "name": "Go to Town",
+          "link": "Abandoned Town",
+          "pid": "5"
+        },
+        {
+          "name": "Go to Base",
+          "link": "Military Base",
+          "pid": "6"
+        },
+        {
+          "name": "Go to Swamps",
+          "link": "Annoyance",
+          "pid": "7"
+        },
+        {
+          "name": "Go to Cliffside",
+          "link": "Ocean View",
+          "pid": "8"
+        }
+      ],
+      "name": "Misty Forest",
+      "pid": "4",
+      "position": {
+        "x": "387",
+        "y": "489"
+      }
+    },
+    {
+      "text": "You head towards a town that was abondoned due to plaque and the victims didn't stay dead it seemed. These undead had no flesh left and, unusually, going about daily life. They were talking with each other, bargaining, and (were those playing cards)? As the residents wished you luck, you pondered your next move.\n\n[[Go to Mountians->Mountainside]]\n[[Go to Hills->Unusual Hills]]\n[[Go to Forest->Misty Forest]]\n[[Stay Put->Abandoned Town]]\n[[Go to Base->Military Base]]\n[[Go to Swamps->Annoyance]]\n[[Go to Cliffside->Ocean View]]",
+      "links": [
+        {
+          "name": "Go to Mountians",
+          "link": "Mountainside",
+          "pid": "2"
+        },
+        {
+          "name": "Go to Hills",
+          "link": "Unusual Hills",
+          "pid": "3"
+        },
+        {
+          "name": "Go to Forest",
+          "link": "Misty Forest",
+          "pid": "4"
+        },
+        {
+          "name": "Stay Put",
+          "link": "Abandoned Town",
+          "pid": "5"
+        },
+        {
+          "name": "Go to Base",
+          "link": "Military Base",
+          "pid": "6"
+        },
+        {
+          "name": "Go to Swamps",
+          "link": "Annoyance",
+          "pid": "7"
+        },
+        {
+          "name": "Go to Cliffside",
+          "link": "Ocean View",
+          "pid": "8"
+        }
+      ],
+      "name": "Abandoned Town",
+      "pid": "5",
+      "position": {
+        "x": "579",
+        "y": "477"
+      }
+    },
+    {
+      "text": "You look around the camp and find everything is perfectly calm given the circumstances. The only thing that's dangerous is the gate guard falling asleep against his pike. After slapping the guard to wake him up, you ponder your next move.\n\n[[Go to Mountians->Mountainside]]\n[[Go to Hills->Unusual Hills]]\n[[Go to Forest->Misty Forest]]\n[[Go to Town->Abandoned Town]]\n[[Stay Put->Military Base]]\n[[Go to Swamps->Annoyance]]\n[[Go to Cliffside->Ocean View]]",
+      "links": [
+        {
+          "name": "Go to Mountians",
+          "link": "Mountainside",
+          "pid": "2"
+        },
+        {
+          "name": "Go to Hills",
+          "link": "Unusual Hills",
+          "pid": "3"
+        },
+        {
+          "name": "Go to Forest",
+          "link": "Misty Forest",
+          "pid": "4"
+        },
+        {
+          "name": "Go to Town",
+          "link": "Abandoned Town",
+          "pid": "5"
+        },
+        {
+          "name": "Stay Put",
+          "link": "Military Base",
+          "pid": "6"
+        },
+        {
+          "name": "Go to Swamps",
+          "link": "Annoyance",
+          "pid": "7"
+        },
+        {
+          "name": "Go to Cliffside",
+          "link": "Ocean View",
+          "pid": "8"
+        }
+      ],
+      "name": "Military Base",
+      "pid": "6",
+      "position": {
+        "x": "888",
+        "y": "312"
+      }
+    },
+    {
+      "text": "You approach the swamp and you can already tell that it is going to be a pain. Thirty minutes of trying to treck through the muck and your above your knees in clinging mud. It is impossissble to traversve further like this and an enemy army would not be able to move through either. Nearly losing your boots on your way out, you ponder your next move.\n\n[[Go to Mountians->Mountainside]]\n[[Go to Hills->Unusual Hills]]\n[[Go to Forest->Misty Forest]]\n[[Go to Town->Abandoned Town]]\n[[Go to Base->Military Base]]\n[[Stay Put->Annoyance]]\n[[Go to Cliffside->Ocean View]]",
+      "links": [
+        {
+          "name": "Go to Mountians",
+          "link": "Mountainside",
+          "pid": "2"
+        },
+        {
+          "name": "Go to Hills",
+          "link": "Unusual Hills",
+          "pid": "3"
+        },
+        {
+          "name": "Go to Forest",
+          "link": "Misty Forest",
+          "pid": "4"
+        },
+        {
+          "name": "Go to Town",
+          "link": "Abandoned Town",
+          "pid": "5"
+        },
+        {
+          "name": "Go to Base",
+          "link": "Military Base",
+          "pid": "6"
+        },
+        {
+          "name": "Stay Put",
+          "link": "Annoyance",
+          "pid": "7"
+        },
+        {
+          "name": "Go to Cliffside",
+          "link": "Ocean View",
+          "pid": "8"
+        }
+      ],
+      "name": "Annoyance",
+      "pid": "7",
+      "position": {
+        "x": "118",
+        "y": "80"
+      }
+    },
+    {
+      "text": "You approach the cliffside and admire the view. The sea crashes against the rocks, the seagulls are sounding their music, the sun rise in the distance, the sea monster looking up at you above the breaking water, and the ... wait what? You look back at the creepy gazer who was still staring. Let's move on.\n\n[[Go to Mountians->Mountainside]]\n[[Go to Hills->Unusual Hills]]\n[[Go to Forest->Misty Forest]]\n[[Go to Town->Abandoned Town]]\n[[Go to Base->Military Base]]\n[[Go to Swamps->Annoyance]]\n[[Stay Put->Ocean View]]",
+      "links": [
+        {
+          "name": "Go to Mountians",
+          "link": "Mountainside",
+          "pid": "2"
+        },
+        {
+          "name": "Go to Hills",
+          "link": "Unusual Hills",
+          "pid": "3"
+        },
+        {
+          "name": "Go to Forest",
+          "link": "Misty Forest",
+          "pid": "4"
+        },
+        {
+          "name": "Go to Town",
+          "link": "Abandoned Town",
+          "pid": "5"
+        },
+        {
+          "name": "Go to Base",
+          "link": "Military Base",
+          "pid": "6"
+        },
+        {
+          "name": "Go to Swamps",
+          "link": "Annoyance",
+          "pid": "7"
+        },
+        {
+          "name": "Stay Put",
+          "link": "Ocean View",
+          "pid": "8"
+        }
+      ],
+      "name": "Ocean View",
+      "pid": "8",
+      "position": {
+        "x": "748",
+        "y": "121"
+      }
+    }
+  ],
+  "name": "Scout's Surveilance",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "8EECC2B1-9CCD-4B06-9926-758E03B25BEF"
+}
