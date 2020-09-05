@@ -49,4 +49,4 @@ None
 
 ## Created by
 
-Jason Francis
+Dallis Collins
